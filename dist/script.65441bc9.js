@@ -10,4 +10,4 @@ var t;!function(e,s){"object"==typeof exports&&"object"==typeof module?module.ex
 },{}],"mpVp":[function(require,module,exports) {
 "use strict";require("particles.js");var e=t(require("typed.js"));function t(e){return e&&e.__esModule?e:{default:e}}particlesJS.load("particles-js","particlesjs-config.json",function(){console.log("callback - particles.js config loaded")});var r=function(){document.querySelectorAll(".typed-cursor").forEach(function(e){e.remove()})},c={strings:["Hi,","Myself","Karan Yadav"],typeSpeed:40,onComplete:function(){new e.default(".sub-header",{strings:["Full Stack Web Developer"],typeSpeed:20,onComplete:function(){r(),document.querySelector(".links").classList.add("fade-in"),document.querySelector(".card.center").classList.add("border")}})}},n=new e.default(".header",c);
 },{"particles.js":"EjAO","typed.js":"44eA"}]},{},["mpVp"], null)
-//# sourceMappingURL=/script.65441bc9.js.map
+//# sourceMappingURL=dist/script.65441bc9.js.map
