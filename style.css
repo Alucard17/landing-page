@@ -1,0 +1,111 @@
+  /* ---- reset ---- */
+  
+  body {
+      margin: 0;
+  }
+  
+  canvas {
+      display: block;
+      vertical-align: bottom;
+  }
+  /* ---- particles.js container ---- */
+  
+  #particles-js {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      background-image: linear-gradient(to right top, #b76de7, #9762d4, #7857c1, #5a4cad, #3c4098, #333f98, #273f98, #173e98, #2248ad, #2e51c3, #3a5bd9, #4765f0);
+  }
+  
+  .card.center {
+      position: absolute;
+      top: 40%;
+      right: 50%;
+      transform: translate(50%, -50%);
+      text-shadow: 0px 0px 2px #131415;
+      font-family: 'Open Sans', sans-serif;
+      color: #fff;
+      text-align: center;
+      padding: 3em;
+  }
+  
+  .border {
+      border-style: solid;
+      border-width: 0.3em;
+      border-color: #fff;
+      border-radius: 10px;
+  }
+  
+  .card .header {
+      font-size: 5em;
+  }
+  
+  .card .sub-header {
+      font-size: 2em;
+  }
+  
+  .logo {
+      font-size: 3em;
+      color: #fff;
+  }
+  
+  .links {
+      visibility: hidden;
+      padding-top: 1em;
+      display: flex;
+      justify-content: space-evenly;
+  }
+  
+  .fade-in {
+      visibility: visible;
+      animation: fadeIn ease 5s;
+      -webkit-animation: fadeIn ease 5s;
+      -moz-animation: fadeIn ease 5s;
+      -o-animation: fadeIn ease 5s;
+      -ms-animation: fadeIn ease 5s;
+  }
+  
+  @keyframes fadeIn {
+      0% {
+          opacity: 0;
+      }
+      100% {
+          opacity: 1;
+      }
+  }
+  
+  @-moz-keyframes fadeIn {
+      0% {
+          opacity: 0;
+      }
+      100% {
+          opacity: 1;
+      }
+  }
+  
+  @-webkit-keyframes fadeIn {
+      0% {
+          opacity: 0;
+      }
+      100% {
+          opacity: 1;
+      }
+  }
+  
+  @-o-keyframes fadeIn {
+      0% {
+          opacity: 0;
+      }
+      100% {
+          opacity: 1;
+      }
+  }
+  
+  @-ms-keyframes fadeIn {
+      0% {
+          opacity: 0;
+      }
+      100% {
+          opacity: 1;
+      }
+  }
